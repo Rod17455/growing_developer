@@ -53,18 +53,16 @@ class LoginScreen extends StatelessWidget {
                   height: 50,
                   onPressed: () {},
                   color: logoGreen,
-                  child: Text('Login',
-                      style: TextStyle(color: Colors.white, fontSize: 16)),
                   textColor: Colors.white,
+                  child: const Text('Login',
+                      style: TextStyle(color: Colors.white, fontSize: 16)),
               ),
-              SizedBox(height: 20),
+              const SizedBox(height: 20),
               MaterialButton(
                 elevation: 0,
                 minWidth: double.maxFinite,
                 height: 50,
-                onPressed: () {
-                //Here goes the logic for Google SignIn discussed in the next section
-                },
+                onPressed: () {},
                 color: Colors.blue,
                   textColor: Colors.white,
                 child: Row(
